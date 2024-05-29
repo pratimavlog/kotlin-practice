@@ -30,9 +30,8 @@ android {
         }
     }
 
-    android {
-        buildFeatures.dataBinding = true
-    }
+
+
 
 
     compileOptions {
