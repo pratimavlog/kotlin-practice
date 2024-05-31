@@ -16,9 +16,10 @@
         android:text="Explicit Intent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintVertical_bias="0.605" />
 
     <Button
         android:id="@+id/implicitbutton"
@@ -31,10 +32,10 @@
         android:text="Implicit Intent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.569"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Explicitbutton"
-        app:layout_constraintVertical_bias="0.765" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/listviewclick"
@@ -50,7 +51,7 @@
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.77" />
+        app:layout_constraintVertical_bias="0.56" />
 
     <Button
         android:id="@+id/recyclervw"
@@ -63,9 +64,10 @@
         android:text=" recyclerview view demo"
         app:layout_constraintBottom_toTopOf="@+id/Explicitbutton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/listviewclick"
-        app:layout_constraintVertical_bias="0.977" />
+        app:layout_constraintVertical_bias="0.254" />
 
     <Button
         android:id="@+id/spinnerview"
@@ -78,7 +80,7 @@
         android:text="Simple Spinner"
         app:layout_constraintBottom_toTopOf="@+id/listviewclick"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerview"
         app:layout_constraintVertical_bias="1.0" />
@@ -88,12 +90,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="32dp"
         android:background="@color/Yello"
         android:padding="20dp"
         android:text="Custom Spinner"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewpageeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/Yello"
+        android:text="View pager "
+
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/implicitbutton"
+        app:layout_constraintVertical_bias="0.229" />
 </androidx.constraintlayout.widget.ConstraintLayout>

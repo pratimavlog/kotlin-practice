@@ -68,6 +68,13 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        var viewpageeg:Button=findViewById(R.id.viewpageeg)
+        viewpageeg.setOnClickListener {
+            var i =Intent(this,viewpageregshow::class.java)
+            startActivity(i)
+
+        }
+
 
     }
 }

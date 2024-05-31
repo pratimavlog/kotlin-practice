@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Kotlinpractice"
         tools:targetApi="31">
         <activity
+            android:name=".viewpageregshow"
+            android:exported="false" />
+        <activity
             android:name=".fragmentdemo"
             android:exported="false" />
         <activity
